@@ -1,0 +1,42 @@
+body {
+  /*The body will have a width of 600px and be centred by setting the margin to 0 auto.*/
+  width: 600px;
+  margin: 0 auto;
+  /*The body will have a font-family of Lucida sans, and a colour of #00376c.*/
+  font-family: "Lucida Sans", sans-serif;
+  color: #00376c;
+}
+a {
+  /*All anchors will have text-decoration set to none.*/
+  text-decoration: none;
+  /*Anchors will have a colour of #00376c.*/
+  color: #00376c;
+}
+a:hover {
+  /*Anchors will have a hover state that sets the text-decoration to underline.*/
+  text-decoration: underline;
+}
+.services {
+  /*Paragraphs in the .services section will have the font-style set to italic.*/
+  font-style: italic;
+}
+footer {
+  /*Paragraphs in the footer will have the font-style set to italic.*/
+  font-style: italic;
+}
+h2 {
+  /*Level 2 headings will have a solid 2px border-bottom in the colour #7b7b7b, and they will have text-align set to center.*/
+  border-bottom: 2px solid #7b7b7b;
+  text-align: center;
+  font-style: normal;
+}
+h3 {
+  /*Level 3 headings will have a color of #1577ff.*/
+  color: #1577ff;
+  /*Level 3 headings will have a solid 2px border-bottom in the colour #1577ff and will have a display property of inline.*/
+  border-bottom: 2px solid #1577ff;
+  font-style: normal;
+}
+ul {
+  font-style: normal;
+}
